@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Secrets (keep .env.example tracked)
+.env
+.env.local
+
+# SQLite and local data
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+data/
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Logs
+logs/
+npm-debug.log*
+
+# OS junk
+.DS_Store
+
+# Editor
+.idea/
+.vscode/

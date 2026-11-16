@@ -1,0 +1,25 @@
+{
+  "name": "tg-contact-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grammy contact bot that hides your username behind a private forum inbox.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/bot.ts",
+    "dev": "tsx watch src/bot.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^16.6.1",
+    "grammy": "^1.38.3",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.19.1",
+    "typescript": "^5.9.3"
+  }
+}
